@@ -23,7 +23,7 @@ header .container{
 header .logo{
     margin-left: 5px;
     color:var(--vermelho);
-    font-family: 'Arial Black', Arial, Helvetica, sans-serif;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
     font-size: 40px;
 }
 header nav a{
@@ -71,3 +71,14 @@ header nav a:hover{
 .botao i{
     margin-right: 8px;
 }
+.container{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.filme-principal .container{
+    width: 70%;
+}
+/*Teoria: Wrapper=Envelopar
+Guarda vários outros elementos (filhos)
+class="container" permite trabalhar com esses items envelopados
+*/
