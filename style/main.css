@@ -8,9 +8,11 @@
     padding: 0;
     box-sizing: border-box; /*Garante que o limite de tudo seja a borda da caixa.*/
 }
+/*Elementos Base*/
 body{
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 header .container{
     display:flex; /*Alinhar os elementos, tendencia de jogar para linha*/
@@ -31,4 +33,21 @@ header nav a{
 }
 header nav a:hover{
     color: #FFF;
+}
+/*Filme Principal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgb(0,0,0.25),rgb(0,0,0,.25)100%), url('/img/capa.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;/*Elementos comecem sempre da esquerda (início)*/
+}
+.filme-principal .descricao{
+    margin-bottom: 40px;
+}
+.titulo{
+    font-size: 40px;
 }
