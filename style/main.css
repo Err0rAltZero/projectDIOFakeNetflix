@@ -1,3 +1,34 @@
+:root{
+    /*Variáveis*/
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Garante que o limite de tudo seja a borda da caixa.*/
+}
 body{
-    background-color: blue;
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+}
+header .container{
+    display:flex; /*Alinhar os elementos, tendencia de jogar para linha*/
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; /*Cria um espaço ENTRE as duas tags*/
+}
+header .logo{
+    margin-left: 5px;
+    color:var(--vermelho);
+    font-family: 'Arial Black', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+header nav a:hover{
+    color: #FFF;
 }
