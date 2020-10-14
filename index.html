@@ -15,7 +15,8 @@
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">FAKFLIX</h2>
+            <h2 id="h2id" class="logo">FAKFLIX</h2>
+            <div class="tema" onclick="cColor()">Versão</div>
             <nav>
                 <a href="#">Inicio</a>
                 <a href="#">Séries</a>
@@ -32,11 +33,11 @@
                     Assista AGORA enquanto ainda se fala na série!</p>
                 <div class="botoes">
                     <!--role= deixa claro que se trata de um botão (útil para diversos sistemas)-->
-                <button role="button" class="botao">
+                <button role="button" class="botao" onclick="window.open('https://www.youtube.com/watch?v=06rueu_fh30','_blank')">
                     <i class="fas fa-play"></i>
                     ASSISTIR AGORA
                 </button>
-                <button role="button" class="botao">
+                <button role="button" class="botao" onclick="window.open('https://www.primevideo.com/detail/The-Boys/0KRGHGZCHKS920ZQGY5LBRF7MA','_blank')">
                     <i class="fas fa-info-circle"></i>
                     MAIS INFORMAÇÕES
                 </button>
@@ -83,5 +84,6 @@
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/setup.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
