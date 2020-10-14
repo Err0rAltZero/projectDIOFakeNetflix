@@ -11,7 +11,7 @@
 /*Elementos Base*/
 body{
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
     color: white;
 }
 header .container{
@@ -82,6 +82,9 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+}
+.carrosel-filmes{
+    margin-top: 5px;
 }
 /*Teoria: Wrapper=Envelopar
 Guarda vários outros elementos (filhos)
